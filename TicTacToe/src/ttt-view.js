@@ -13,7 +13,9 @@ class View {
     this.$el.on('click', '.box', (event) => {
       let $box = $(event.target); // Wrap to make int JQuery Object
       // console.log($box.data('pos'));
-      this.makeMove($box);
+      if (!this.game.isOver()) {
+        this.makeMove($box);
+      }
     })
   }
 
