@@ -1,0 +1,33 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.trash {
+    background: brown;
+    color: plum;
+    height: 200px;
+    width: 200px;
+}
+
+/* ul */
+.base {
+    /* background: darkblue; */
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    border-bottom: 100px solid darkblue;
+}
+
+/* ul */
+.section {
+    background: salmon;
+    height: 500px;
+    width: 25%;
+    margin: auto;
+}
