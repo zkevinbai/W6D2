@@ -1,0 +1,16 @@
+add text tic tac toe
+
+Default State
+XO text is black
+XO background is white
+
+Win State
+XO text is white
+XO background is green
+
+Loose State && Draw State
+XO text is red
+XO background is white
+
+Add h1 x or y looses
+Or add h1 its a draw

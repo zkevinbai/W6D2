@@ -1,0 +1,77 @@
+.trash {
+    background: brown;
+    color: plum;
+    height: 200px;
+    width: 200px;
+}
+
+.grid {
+    background: plum;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    /* border-radius: 5%; */
+}
+
+.box {
+    background: rgb(115, 84, 228);
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    list-style-type: none;
+    border: white solid 1px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box:hover {
+    background: lightskyblue;
+}
+
+.o {
+    border-radius: 50%;
+}
+
+.x {
+    border-radius: 25%;
+}
+
+.input {
+    background: rgb(115, 84, 228);
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 250px;
+    font-family: fantasy;
+    border: white solid 1px;
+}
+
+.input :hover {
+    user-select: none;
+}
+
+.win {
+    background: lightgreen;
+}
+
+
+.lose {
+    background: white;
+    color: red;
+}
